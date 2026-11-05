@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-11-05",
   "masjids": [
     {
       "id": "masjid-al-haram",
@@ -268,6 +268,20 @@
       "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/jaame-masjid-scarborough.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "abu-huraira-center",
+      "name": "Abu Huraira Center",
+      "city": "North York",
+      "country": "Canada",
+      "latitude": 43.77299,
+      "longitude": -79.33458,
+      "website": "https://abuhuraira.org/",
+      "verified": true,
+      "notes": "Website supplied by the app owner (2026-11). Address from the masjid's website; position from its OpenStreetMap pin (\"Abu Huraria Centre\").",
+      "address": "270 Yorkland Blvd, North York, ON M2J 5C9",
+      "coordinatesApproximate": false,
       "timezone": "America/Toronto"
     }
   ]
