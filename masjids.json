@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-05",
+  "updated": "2026-11-15",
   "masjids": [
     {
       "id": "masjid-al-haram",
@@ -10,7 +10,6 @@
       "latitude": 21.4225,
       "longitude": 39.8262,
       "website": "https://alharamain.gov.sa/public/?page=masjid-haram-en",
-      "prayerTimeApiUrl": null,
       "verified": true,
       "notes": "The Grand Mosque, the holiest site in Islam. Site administered by the General Presidency of the Affairs of the Two Holy Mosques."
     },
@@ -22,7 +21,6 @@
       "latitude": 24.4672,
       "longitude": 39.6112,
       "website": "https://alharamain.gov.sa/public/?page=home_en",
-      "prayerTimeApiUrl": null,
       "verified": true,
       "notes": "The Prophet's Mosque, the second holiest site in Islam."
     },
@@ -34,7 +32,6 @@
       "latitude": 24.4128,
       "longitude": 54.475,
       "website": "https://www.szgmc.gov.ae/",
-      "prayerTimeApiUrl": null,
       "verified": true,
       "notes": "Administered by the Sheikh Zayed Grand Mosque Centre."
     },
@@ -46,7 +43,6 @@
       "latitude": 33.6086,
       "longitude": -7.6325,
       "website": "https://www.fmh2.ma/en",
-      "prayerTimeApiUrl": null,
       "verified": true,
       "notes": "Administered by the Fondation de la Mosquee Hassan II."
     },
@@ -58,7 +54,6 @@
       "latitude": 31.7761,
       "longitude": 35.2358,
       "website": null,
-      "prayerTimeApiUrl": null,
       "verified": false,
       "notes": "No single, clearly-official public website was confirmed at time of writing - left blank rather than link an unverified/tourism-run site. Administered by the Jerusalem Islamic Waqf."
     },
@@ -70,7 +65,6 @@
       "latitude": 41.0054,
       "longitude": 28.9768,
       "website": null,
-      "prayerTimeApiUrl": null,
       "verified": false,
       "notes": "Several competing tourism-guide domains exist for this mosque but none were confirmed as the mosque's own official site - left blank rather than guess."
     },
@@ -82,7 +76,6 @@
       "latitude": 33.7295,
       "longitude": 73.0372,
       "website": null,
-      "prayerTimeApiUrl": null,
       "verified": false,
       "notes": "No dedicated official mosque website was confirmed - administered by the International Islamic University, Islamabad."
     },
@@ -97,7 +90,6 @@
       "coordinatesApproximate": true,
       "website": "https://irccan.com/",
       "prayerTimeSourceUrl": "https://irccan.com/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/masjid-al-abedeen-ircc.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto",
@@ -115,7 +107,6 @@
       "coordinatesApproximate": true,
       "website": "https://danforthcommunitycenter.org/home",
       "prayerTimeSourceUrl": "https://danforthcommunitycenter.org/home",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/baitul-aman-masjid.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto"
@@ -131,7 +122,6 @@
       "coordinatesApproximate": true,
       "website": "https://www.sunatuljamaat.com/",
       "prayerTimeSourceUrl": "https://www.sunatuljamaat.com/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/sunnatul-jamaat-ontario.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto"
@@ -147,7 +137,6 @@
       "coordinatesApproximate": true,
       "website": "https://bmis.ca/",
       "prayerTimeSourceUrl": "https://bmis.ca/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/baitul-mukarram-islamic-society.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto",
@@ -165,7 +154,6 @@
       "coordinatesApproximate": true,
       "website": "https://islamicfoundation.ca/",
       "prayerTimeSourceUrl": "https://islamicfoundation.ca/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/islamic-foundation-toronto.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto",
@@ -182,7 +170,6 @@
       "coordinatesApproximate": true,
       "website": "http://www.smacanada.ca/",
       "prayerTimeSourceUrl": "http://www.smacanada.ca/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/scarborough-muslim-association.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto"
@@ -198,7 +185,6 @@
       "coordinatesApproximate": true,
       "website": "https://www.masjidhuzaifah.com/prayertimes",
       "prayerTimeSourceUrl": "https://www.masjidhuzaifah.com/prayertimes",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/masjid-huzaifah.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto",
@@ -215,7 +201,6 @@
       "coordinatesApproximate": true,
       "website": "https://subhanislamicassociation.org/",
       "prayerTimeSourceUrl": "https://subhanislamicassociation.org/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/masjid-subhan-scarborough.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto"
@@ -231,7 +216,6 @@
       "coordinatesApproximate": true,
       "website": "https://www.masjidaljannah.ca/prayer-times/",
       "prayerTimeSourceUrl": "https://www.masjidaljannah.ca/prayer-times/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/masjid-al-jannah.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto",
@@ -248,7 +232,6 @@
       "coordinatesApproximate": true,
       "website": "https://www.baituljannah.ca/",
       "prayerTimeSourceUrl": "https://www.baituljannah.ca/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/baitul-jannah-islamic-center.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto",
@@ -265,7 +248,6 @@
       "coordinatesApproximate": true,
       "website": "https://centralmosque.ca/",
       "prayerTimeSourceUrl": "https://centralmosque.ca/",
-      "prayerTimeApiUrl": "https://raw.githubusercontent.com/silentkichu172/athan-lite/main/data/live/jaame-masjid-scarborough.json",
       "verified": true,
       "notes": "Address and website supplied directly by the app owner (2026-09). Coordinates are a neighbourhood-level approximation pending a precise pin - see docs/MASJID_DIRECTORY.md.",
       "timezone": "America/Toronto"
