@@ -36,3 +36,52 @@ Without `prayerTimesUrl` or `prayerTimesSelector`, a masjid has no "Prayer
 times" button.
 
 Links must start with `https://` (or `http://`).
+
+## Announcements and the minimum app version (`app.json`)
+
+The app reads `app.json` twice a day. Edit it the same way as the masjid
+list (pencil icon, **Commit changes**, then check **Actions** for the green
+tick).
+
+### Show a message on Home (for example, Eid Mubarak)
+
+Add an entry to `"announcements"`:
+
+```json
+{
+  "version": 1,
+  "minBuild": 0,
+  "announcements": [
+    {
+      "id": "eid-al-fitr-2027",
+      "title": "Eid Mubarak",
+      "message": "Taqabbal Allahu minna wa minkum. Wishing you and your family a blessed Eid.",
+      "start": "2027-03-10",
+      "end": "2027-03-12"
+    }
+  ]
+}
+```
+
+| Field | Rules |
+|---|---|
+| `id` | Unique, lowercase letters, digits and dashes. Use a new one for each message. |
+| `title` | Up to 60 characters. |
+| `message` | Up to 300 characters, plain text (no `<` or `>`). |
+| `start`, `end` | Dates like `2027-03-10`. Shown from `start` to `end` (inclusive), at most 14 days. |
+| `link`, `linkLabel` | Optional. The link must start with `https://` and be on `sujuda.github.io` or `play.google.com`. `linkLabel` is the button text (up to 30 characters; default "Learn more"). |
+
+People see it as a card at the top of Home the next time they open the
+app, and can close it. Old entries can stay or be deleted.
+
+### Ask everyone on an old version to update
+
+Set `"minBuild"` to the version code of the new release (the number shown
+next to the App Bundle in the build, e.g. `170`). Phones with an older
+version, **and only when Google Play confirms the update is available**,
+see Google Play's update screen, and a "Please update" card on Home if
+they close it. The app is never locked and the update always comes from
+Google Play, so a wrong number can't harm anyone. Use `0` to turn it off.
+
+If anything in `app.json` breaks a rule, the check fails (red X) and the
+app ignores the whole file, keeping its last good copy.
